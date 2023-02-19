@@ -16,6 +16,8 @@ body {
     margin: 0 auto;
 }
 
+/* NAVIGATION */
+/* ----------------------------------------- */
 .nav {
     position: fixed;
     top: 0;
@@ -68,6 +70,8 @@ body {
 .page.current {
     color: #556b2f;
 }
+
+/* ----------------------------------------- */
 
 .hero {
     background-image: url('../images/emery2.jpeg');
