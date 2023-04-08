@@ -153,3 +153,47 @@ body {
     line-height: 30px;
     letter-spacing: 1.1px;
 }
+
+@media screen and (max-width: 880px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav .container ul {
+        display: none;
+    }
+
+    .hero .info {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        transition: all 0.3s ease-in;
+    }
+
+    .hero #info.active {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 250px;
+        transition: all 0.3s ease-in;    
+    }
+
+    .container.content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
